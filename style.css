@@ -7,10 +7,10 @@ body{
 }
 
 .nav-bar-container
-{
+    {
     margin-top: 1 rem;
     height: 65 px;
-    background-color: #102C57;
+    background-color: #571015;
     color: white;
 }
 
@@ -19,3 +19,18 @@ body{
     align-items: center;
     justify-content: space-evenly;
 }
+
+/* .hero{
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_img{
+    height: 300px;
+}
+
+/* .com_info{
+;
+} */
