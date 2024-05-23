@@ -7,9 +7,9 @@ body{
 }
 
 .nav-bar-container
-{
-    margin-top: 1rem;
-    height: 65px;
+    {
+        margin-top: 1 rem;
+    height: 65 px;
     background-color: #102C57;
     color: white;
 }
