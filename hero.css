@@ -1,0 +1,59 @@
+.hero_img,
+.com_text {
+    display: flex;
+    justify-content: center;
+}
+
+
+.hero_img {
+    width: 1874px;
+    
+}
+
+.com_text {
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: 100;
+}
+
+.vendor_info {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    height: 500px;
+    transition: background-color 0.5s;
+}
+
+.vendor_info:hover {
+    cursor: pointer;
+    background-color: #FEFAF6;
+}
+
+.vendor_text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.text {
+    font-size: 17px;
+    font-family: Arial;
+    margin: 50px;
+    font-weight: 100;
+}
+
+.vendor_event_img {
+    height: 400px;
+}
+
+.image1 {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+body {
+    background-color: #EADBC8;
+}
