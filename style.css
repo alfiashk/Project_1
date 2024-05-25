@@ -34,3 +34,16 @@ body{
 /* .com_info{
 ;
 } */
+
+html {
+    scroll-snap-type: y mandatory;
+}
+
+.container1,
+.container2,
+.container3,
+.container4 {
+    margin: 0px auto;
+
+    scroll-snap-align: start;
+}
