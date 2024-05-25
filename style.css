@@ -42,8 +42,9 @@ html {
 .container1,
 .container2,
 .container3,
-.container4 {
+.container4,
+.container5,
+.footer {
     margin: 0px auto;
-
     scroll-snap-align: start;
 }
