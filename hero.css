@@ -95,17 +95,13 @@
     font-size: 60px;
 }
 
-h1 {
-    font-family: "Noto Serif";
-
-}
-
 .com_overview{
     color: rgb(255, 255, 255);
     font-size: 60px;
 }
 
-h1 {
+h1,
+p {
     font-family: "Noto Serif";
 }
 
@@ -204,15 +200,15 @@ h1 {
 }
 
 .past_con {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
     /* flex-direction: row; */
-    /* display: grid; */
-    /* grid-template-columns: 1fr 1fr 1fr; */
-    /* column-gap: 50px; */
-    /* row-gap: 50px; */
-    /* padding-left: 80px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    padding-left: 80px;
 }
 
 .past_pic {
@@ -230,4 +226,102 @@ img {
     font-weight: 200;
     line-height: 25px;
     height: 400px;
+}
+
+.container5 {
+    background-color: black;
+    height: 1080px;
+}
+
+.rev_con {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.rev1,
+.rev2,
+.rev3,
+.rev4 {
+    background-color: rgb(0, 0, 0);
+    height: 350px;
+    width: 450px;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.rev2 {
+    margin-bottom: 40px;
+}
+
+.quote {
+    width: 32px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.rev_text,
+.rev_author {
+    padding: 15px;
+    font-weight: 400;
+    margin: 0px;
+    color: white;
+}
+
+.footer {
+    background-color: rgb(24, 24, 24);
+    height: 540px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.com_name,
+.details{
+    margin-top: 50px;
+}
+
+.comp_name{
+    margin: 0px;
+    color: cyan;
+    width: 500px;
+    font-size: 60px;
+    width: 500px
+}
+
+.know_us,
+.read_policies,
+.follow_us{
+    color: white;
+    font-size: 24px;
+}
+
+.links{
+    color: white;
+    font-size: 20px;
+}
+
+.links:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.insta,
+.twitter,
+.yt {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.insta:hover,
+.twitter:hover,
+.yt:hover {
+    cursor: pointer;
 }
