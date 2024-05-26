@@ -46,17 +46,18 @@ body{
     width: 18rem;
     border:none;
     border-radius: 5px;
+    padding-left:10px;
 }
 .hov::placeholder{
     font-family: "Noto Serif";
-    padding-left: 10px;
 }
 .pass{
     margin-top: 1.7rem;
    
 }
 
-.hov:hover{background-color: black;
+.hov:hover{
+    background-color: black;
     color: white;
     border-color: cyan;
     box-shadow: 0 0 10px cyan;
