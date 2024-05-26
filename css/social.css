@@ -8,54 +8,6 @@ p {
     font-family: "Noto Serif";
 }
 
-.nav {
-    background-color: black;
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    top:0;
-    left:0;
-    right:0;
-    z-index: 100;
-}
-
-.heading_text {
-    color: cyan;
-    font-size: 60px;
-}
-
-.nav-btn {
-    display: flex;
-    justify-content: space-around;
-    width: 800px;
-}
-
-.venue,
-.decorations,
-.services,
-.contact_us {
-    width: 150px;
-    height:40px;
-    font-family: "Noto Serif";
-    font-size: 16px;
-    font-weight: 600;
-    background-color: cyan;
-    color: black;
-    border: none;
-    border-radius: 5px;
-    transition: box-shadow 0.5s,background-color 0.5s,color 0.5s;
-}
-
-.venue:hover,
-.decorations:hover,
-.services:hover,
-.contact_us:hover {
-    background-color: black;
-    box-shadow: 0 0 15px cyan;
-    color: white;
-}
 
 .container1 {
     height: 980px;
@@ -86,6 +38,11 @@ p {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
+    transition: background-color 0.5s;
+}
+
+.c1_txt_box:hover {
+    background-color: rgb(48, 48, 48);
 }
 
 .c1_box_hd,
@@ -104,4 +61,78 @@ p {
     padding: 40px;
     line-height: 30px;
     font-size: 18px;
+}
+
+.main_events{
+    background-color: rgb(24,24,24);
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main1,
+.main2 {
+    width:600px;
+    height: 290px;
+    background-color: rgb(24,24,24);
+    transition: background-color 0.5s;
+}
+
+.main1:hover,
+.main2:hover {
+    background-color: rgb(63, 63, 63);
+}
+
+.m_hd,
+.m_txt {
+    color: white;
+    text-align: center;
+}
+
+.m_txt {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.m_hd {
+    font-size: 40px;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    background-color: black;
+}
+
+.event3_box {
+    width: 1300px;
+    height: 290px;
+    transition: background-color 0.5s;
+}
+
+.event3_box:hover {
+    background-color: rgb(48, 48, 48);
+}
+
+
+.eve3_hd,
+.eve3_text {
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+.eve3_hd {
+    font-size: 50px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+
+.eve3_text {
+    line-height: 30px;
+    font-size: 20px;
 }
