@@ -48,3 +48,8 @@ html {
     margin: 0px auto;
     scroll-snap-align: start;
 }
+
+h1,
+p {
+    font-family: "Noto Serif";
+}
