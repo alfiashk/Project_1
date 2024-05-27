@@ -215,9 +215,60 @@ p {
 }
 
 .photos {
-    width: 680px;
+    /* width: 680px; */
 }
 
 .past_photo {
     width: 100%;
+}
+
+
+.booking {
+    padding: 50px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(109, 109, 109);
+}
+
+.book {
+    align-items: center;
+    text-align: center;
+}
+
+.booking_head,
+.book_text {
+    color: white;
+    margin: 0px;
+    padding:20px
+}
+
+.booking_head {
+    padding-top: 50px;
+}
+
+.book_text{
+    font-size: 18px;
+} 
+
+.book_now {
+    margin-top: 20px;
+    width: 150px;
+    height:40px;
+    font-family: "Noto Serif";
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(109, 109, 109);
+    color: rgb(255, 255, 255);
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 5px;
+    transition: box-shadow 0.5s,background-color 0.5s,color 0.5s;
+}
+
+.book_now:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
