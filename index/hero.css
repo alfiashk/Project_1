@@ -207,3 +207,20 @@ img {
     margin: 0px;
     color: white;
 }
+
+
+.team_name {
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tt{
+    color: cyan;
+    font-weight: 200;
+    line-height: 30px;
+    font-size: 18px;
+    margin: 0px;
+}
