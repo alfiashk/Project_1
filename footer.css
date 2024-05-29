@@ -45,3 +45,8 @@
 .yt:hover {
     cursor: pointer;
 }
+
+p,
+h1 {
+    font-family: "Noto Serif";
+}
