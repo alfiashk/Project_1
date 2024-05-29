@@ -28,7 +28,7 @@
 .services,
 .contact_us {
     flex:1;
-    /* width: 150px; */
+    min-width: 150px;
     height:40px;
     font-family: "Noto Serif";
     font-size: 16px;
