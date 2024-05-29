@@ -19,6 +19,8 @@ body {
 .reach_details {
     flex:1;
     background-color: white;
+    padding: 40px;
+    padding-left: 100px;
 }
 
 .c1_head,
@@ -85,3 +87,51 @@ body {
     box-shadow: 0 0 15px rgb(0, 0, 0);
     color: black;
 }
+
+
+.reach_head {
+    font-family: "Noto serif";
+    font-size: 50px;
+}
+
+.our_number,
+.our_address,
+.our_email {
+    margin-top:60px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.texts {
+    width: 600px;
+    height: 50px;
+}
+
+
+.details_head,
+.details_text {
+    margin: 0px;
+    font-family: "Noto Serif";
+    margin-left: 20px;
+}
+
+.details_head {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.details_text {
+    font-size: 18px;
+    font-weight: 400;
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+.d_img {
+    width: 56px;
+} 
+
