@@ -28,9 +28,15 @@
 .services,
 .contact_us {
     flex:1;
+<<<<<<< HEAD
     /* width: 150px; */
      height:40px;
    /* font-family: "Noto Serif";
+=======
+    min-width: 150px;
+    height:40px;
+    font-family: "Noto Serif";
+>>>>>>> 9bb6d7ad273b9c29489a0260f5ab4a5b4fcfdb3a
     font-size: 16px;
     font-weight: 600;
     background-color: cyan;
