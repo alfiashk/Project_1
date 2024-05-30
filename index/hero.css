@@ -51,7 +51,7 @@
     background-color: cyan;
     font-family: "Noto Serif";
     font-weight: bolder;
-    transition: background-color 0.5s,color 0.5s,border-color 0.5s;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
 }
 .hero-btn:hover{
     background-color: black;

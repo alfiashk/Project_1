@@ -29,16 +29,26 @@
 .contact_us {
     flex:1;
     /* width: 150px; */
-    height:40px;
-    font-family: "Noto Serif";
+     height:40px;
+   /* font-family: "Noto Serif";
     font-size: 16px;
     font-weight: 600;
     background-color: cyan;
     color: black;
-    border: none;
-    border-radius: 5px;
-    transition: box-shadow 0.5s,background-color 0.5s,color 0.5s;
+    border: solid black 2px;
+    border-radius: 8px;
+    transition: border-color 0.5s,background-color 0.5s,color 0.5s; */
     margin-right: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: black;
+    margin-top: 20px;
+    color: black;
+    background-color: cyan;
+    font-family: "Noto Serif";
+    font-weight: bolder;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
 }
 
 .venue:hover,
@@ -46,6 +56,7 @@
 .services:hover,
 .contact_us:hover {
     background-color: black;
-    box-shadow: 0 0 15px cyan;
+    box-shadow: 0 0 17px cyan;
     color: white;
+    border-color: cyan;
 }
