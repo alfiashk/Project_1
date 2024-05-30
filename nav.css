@@ -28,22 +28,29 @@
 .services,
 .contact_us {
     flex:1;
-<<<<<<< HEAD
-    /* width: 150px; */
-     height:40px;
-   font-family: "Noto Serif";
-=======
-    min-width: 150px;
+    /* width: 150px; 
     height:40px;
     font-family: "Noto Serif";
->>>>>>> 9bb6d7ad273b9c29489a0260f5ab4a5b4fcfdb3a
+    /*min-width: 150px; 
+    font-family: "Noto Serif";
     font-size: 16px;
     font-weight: 600;
     background-color: cyan;
     color: black;
     border: solid black 2px;
     border-radius: 8px;
-    transition: border-color 0.5s,background-color 0.5s,color 0.5s;
+    transition: border-color 0.5s,background-color 0.5s,color 0.5s;*/
+    flex: 1;
+    font-family: "Noto Serif";
+    font-family: "Noto Serif";
+    font-weight: 600;
+    background-color: cyan;
+    color: black;
+    border: solid black 2px;
+    border-radius: 8px;
+    transition: border-color 0.5s, background-color 0.5s, color 0.5s;
+    margin-right: 20px;
+    height: 40px;
    
 }
 
