@@ -4,7 +4,7 @@ body {
     font-family: "Noto Serif";
 }
 .container1 {
-    height: 900px;
+    height: 1000px;
     background-color: rgb(255, 255, 255);
     /* padding-top: 40px; */
     display: flex;
@@ -30,8 +30,8 @@ body {
 
 .c1_txt_box {
     background-color: black;
-    width: 1300px;
-    height: 500px;
+    width: 1000px;
+    height: 600px;
     /* display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -97,6 +97,7 @@ body {
     color: cyan;
     padding: 50px;
     font-size: 60px;
+    margin: 0px;
 }
 
 .photos_container {
