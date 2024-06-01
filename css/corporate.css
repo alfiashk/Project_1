@@ -4,7 +4,7 @@ body {
     font-family: "Noto Serif";
 }
 .container1 {
-    height: 1000px;
+    height: 1200px;
     background-color: rgb(255, 255, 255);
     /* padding-top: 40px; */
     display: flex;
@@ -30,8 +30,8 @@ body {
 
 .c1_txt_box {
     background-color: black;
-    width: 1000px;
-    height: 600px;
+    width: 1200px;
+    height: 700px;
     /* display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -51,14 +51,14 @@ body {
 }
 
 .c1_box_hd {
-    /* padding: ; */
+    padding: 20px;
     font-size: 50px;
 }
 
 .c1_text {
     /* height: 400px; */
     padding: 40px;
-    line-height: 30px;
+    line-height: 40px;
     text-align: left;
     font-size: 18px;
 }
@@ -83,7 +83,7 @@ body {
     text-align:justify;
     padding: 40px;
     height: 300px;
-    width: 600px;
+    width: 800px;
     line-height: 30px;
     font-size: 18px;
 }
