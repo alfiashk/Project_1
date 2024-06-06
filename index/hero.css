@@ -2,7 +2,8 @@
 .container3,
 .container5{
     background-color: black;
-    height: 1080px;
+    height: 100vh;
+    width: 100vw;
 }
  .container1 {
     display: flex;
@@ -11,7 +12,7 @@
     align-items: center;
 } 
 .main-text{
-    width: 800px
+    width: 800px;
 
 }
 .heading_text {
@@ -67,7 +68,8 @@
 }
 .container2 {
     background-color: rgb(24, 24, 24);
-    height: 1080px;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -148,7 +150,8 @@
 }
 .container4 {
     background-color: rgb(24, 24, 24);
-    height: 1080px;
+    height: 100vh;
+    width: 100vw;
 }
 .con4_heading {
     background-color: rgb(24, 24, 24);
@@ -166,7 +169,7 @@
     padding-left: 80px;
 }
 .past_pic {
-    width: 560px;
+    width: 25.16vw;
 }
 
 img {
@@ -174,7 +177,8 @@ img {
 }
 .container5 {
     background-color: black;
-    height: 1080px;
+    height: 100vh;
+    width: 100vw;
 }
 .rev_con {
     display: flex;
