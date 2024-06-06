@@ -27,19 +27,19 @@
 .decorations,
 .services,
 .contact_us {
-    flex:1;
-    /* width: 150px; 
+    /* flex:1;
+    width: 150px; 
     height:40px;
     font-family: "Noto Serif";
     
-    font-family: "Noto Serif";
+    font-family: "Noto Serif"; */
     font-size: 16px;
-    font-weight: 600;
+    /* font-weight: 600;
     background-color: cyan;
     color: black;
     border: solid black 2px;
     border-radius: 8px;
-    transition: border-color 0.5s,background-color 0.5s,color 0.5s;*/
+    transition: border-color 0.5s,background-color 0.5s,color 0.5s; */
     flex: 1;
     font-family: "Noto Serif";
     font-family: "Noto Serif";
