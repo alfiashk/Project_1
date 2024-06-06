@@ -3,7 +3,11 @@
 .container5{
     background-color: black;
     height: 100vh;
+<<<<<<< HEAD
     /* width: 100vw; */
+=======
+    width: 99vw;
+>>>>>>> db5c0bc96987529edac07819091c66650ad16a62
 }
  .container1 {
     display: flex;
@@ -69,7 +73,11 @@
 .container2 {
     background-color: rgb(24, 24, 24);
     height: 100vh;
+<<<<<<< HEAD
     /* width: 100vw; */
+=======
+    width: 99vw;
+>>>>>>> db5c0bc96987529edac07819091c66650ad16a62
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -87,7 +95,7 @@
     color: cyan;
     margin: 0px;
     text-align: center;
-    padding: 100px;
+    padding: 5vh;
     font-size: 60px;
 }
 .services_con {
@@ -151,7 +159,11 @@
 .container4 {
     background-color: rgb(24, 24, 24);
     height: 100vh;
+<<<<<<< HEAD
     /* width: 100vw; */
+=======
+    width: 99vw;
+>>>>>>> db5c0bc96987529edac07819091c66650ad16a62
 }
 .con4_heading {
     background-color: rgb(24, 24, 24);
@@ -178,7 +190,12 @@ img {
 .container5 {
     background-color: black;
     height: 100vh;
+<<<<<<< HEAD
     /* width: 100vw; */
+=======
+    width: 99vw;
+    /* width: ; */
+>>>>>>> db5c0bc96987529edac07819091c66650ad16a62
 }
 .rev_con {
     display: flex;
