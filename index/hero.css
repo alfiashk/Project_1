@@ -3,11 +3,7 @@
 .container5{
     background-color: black;
     height: 100vh;
-<<<<<<< HEAD
-    /* width: 100vw; */
-=======
-    width: 99vw;
->>>>>>> db5c0bc96987529edac07819091c66650ad16a62
+    width: 99.2vw;
 }
  .container1 {
     display: flex;
@@ -73,11 +69,7 @@
 .container2 {
     background-color: rgb(24, 24, 24);
     height: 100vh;
-<<<<<<< HEAD
-    /* width: 100vw; */
-=======
-    width: 99vw;
->>>>>>> db5c0bc96987529edac07819091c66650ad16a62
+    width: 99.2vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -159,11 +151,7 @@
 .container4 {
     background-color: rgb(24, 24, 24);
     height: 100vh;
-<<<<<<< HEAD
-    /* width: 100vw; */
-=======
-    width: 99vw;
->>>>>>> db5c0bc96987529edac07819091c66650ad16a62
+    width: 99.2vw;
 }
 .con4_heading {
     background-color: rgb(24, 24, 24);
@@ -190,12 +178,8 @@ img {
 .container5 {
     background-color: black;
     height: 100vh;
-<<<<<<< HEAD
-    /* width: 100vw; */
-=======
-    width: 99vw;
+    width: 99.2vw;
     /* width: ; */
->>>>>>> db5c0bc96987529edac07819091c66650ad16a62
 }
 .rev_con {
     display: flex;
