@@ -166,7 +166,7 @@
     row-gap: 50px;
 }
 .past_pic {
-    width: 29.16vw;
+    width: 25.16vw;
 }
 
 img {
@@ -226,3 +226,21 @@ img {
     font-size: 18px;
     margin: 0px;
 }
+
+
+
+/* @keyframes slide {
+    from {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);/
+        opacity: 1;
+    } 
+}
+
+
+.heading_text {
+    animation: slide 1s ease-in;
+} */
