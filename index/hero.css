@@ -160,14 +160,16 @@
 .past_con {
     padding:30px;
     padding-left: 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
+    /* grid-template-columns: 1fr 1fr 1fr; */
     column-gap: 50px;
     row-gap: 10px;
 }
-/* .past_pic {
+.past_pic {
     width: 27.16vw;
-} */
+    flex: 1;
+}
 
 img {
     width: 99%;
