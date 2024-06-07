@@ -163,14 +163,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 50px;
-    row-gap: 50px;
+    row-gap: 10px;
 }
-.past_pic {
-    width: 25.16vw;
-}
+/* .past_pic {
+    width: 27.16vw;
+} */
 
 img {
-    width: 100%;
+    width: 99%;
 }
 .container5 {
     background-color: black;
