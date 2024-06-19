@@ -3,16 +3,23 @@ body {
     padding-top: 100px;
 }
 
-h1,
+/* h1,
 p {
     font-family: "Noto Serif";
-}
+} */
 
 
 .container1 {
     height: 980px;
     background-color: rgb(255, 255, 255);
     padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.svg{
+    padding-top: 20px;
 }
 
 .c1_hd {
@@ -32,13 +39,14 @@ p {
 
 .c1_txt_box {
     background-color: black;
-    width: 1000px;
+    width: 1340px;
     height: 600px;
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-direction: column;
+    flex-direction: column; */
     transition: background-color 0.5s;
+    text-align: center;
 }
 
 .c1_txt_box:hover {
@@ -48,151 +56,87 @@ p {
 .c1_box_hd,
 .c1_text {
     color: white;
-    margin: 0px;
+   
 }
 
 .c1_box_hd {
-    padding: 40px;
+    /* padding: ; */
     font-size: 50px;
 }
 
 .c1_text {
-    height: 500px;
+    /* height: 400px; */
     padding: 40px;
-    line-height: 30px;
-    font-size: 18px;
-}
-
-.main_events{
-    background-color: rgb(24,24,24);
-    height: 300px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.main1,
-.main2 {
-    width:600px;
-    height: 290px;
-    background-color: rgb(24,24,24);
-    transition: background-color 0.5s;
-}
-
-.main1:hover,
-.main2:hover {
-    background-color: rgb(63, 63, 63);
-}
-
-.m_hd,
-.m_txt {
-    color: white;
-    text-align: center;
-}
-
-.m_txt {
-    font-size: 18px;
-    line-height: 30px;
-    padding: 10px;
-}
-
-.m_hd {
-    font-size: 40px;
-}
-
-.container3 {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 300px;
-    background-color: black;
-}
-
-.event3_box {
-    width: 1300px;
-    height: 290px;
-    transition: background-color 0.5s;
-}
-
-.event3_box:hover {
-    background-color: rgb(48, 48, 48);
-}
-
-
-.eve3_hd,
-.eve3_text {
-    color: white;
-    text-align: center;
-    margin: 0px;
-}
-
-.eve3_hd {
-    font-size: 50px;
-    padding-bottom: 40px;
-    padding-top: 50px;
-}
-
-.eve3_text {
-    line-height: 30px;
+    /* line-height: 30px; */
+    text-align: left;
     font-size: 20px;
 }
 
-.party_types {
-    height: 800px;
-    display: flex;
-    justify-content: space-evenly;
-    /* align-items: center; */
-    padding-top: 100px;
-}
 
-.business_party, 
-.private_party,
-.special_occasion {
-    width: 600px;
-    background-color: white;
-    /* border-radius: 5px; */
-    box-shadow: 0 0 10px rgb(109, 109, 109);
-    transition: background-color 0.5s,color 0.5s;
-}
-
-.business_party:hover,
-.private_party:hover,
-.special_occasion:hover {
+.container2{
+    height: 1080px;
+    width: 100%;
     background-color: rgb(0, 0, 0);
+    margin-top: 80px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.bold{
+    font-size: 45px;
+}
+
+.c1_txt_box2 {
+    /* background-color: black; */
+    margin-top: 5rem;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* transition: background-color 0.5s; */
+}
+
+.c1_box_hd2,
+.c1_text2 {
     color: white;
+   
 }
 
-.business_party {
-    margin-top: 50px;
-    height:700px
+.c1_box_hd2 {
+    padding: 40px;
+    font-size: 50px;
 }
 
-.private_party {
-    height: 600px;
-}
-
-.special_occasion {
-    margin-top: 50px;
-    height: 550px;
-}
-
-.pt_hd,
-.pt_text {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin:0px;
-}
-
-.pt_hd {
-    font-size: 40px;
-}
-
-.pt_text {
-    line-height: 30px;
+.c1_text2 {
+    height: 500px;
+    /* padding: 40px 0 40px 40px;
+    line-height: 30px; */
     font-size: 18px;
+}
+
+.wed-img{
+    margin: 3rem;
+    height: 750px;
+    width: 750px;
+    
+}
+
+.sk{
+    height: 750px;
+width: 800px;
+color: white;
+font-size: 24px;
+}
+.con1_text2{
+    text-align: center;
+}
+
+.container3{
+    height: 800px;
+    background-color: beige;
+    font-size: 30px;
 }
 
 .past_photos {
@@ -214,10 +158,16 @@ p {
     padding: 20px;
 }
 
+/* .photo {
+    height: 436px;
+    width: 640px;
+} */
 
-.past_photo {
-    width: 100%;
+.pe{
+   height: 100%;
+   width: 100%;
 }
+
 
 
 .booking {

@@ -3,33 +3,30 @@
 .container5{
     background-color: black;
     height: 1080px;
+    width: 99.2vw;
 }
  .container1 {
     display: flex;
     justify-content: space-around;
-    height : 1080px;
+    height : 100vh;
     align-items: center;
 } 
 .main-text{
-    width: 800px
+    width: 800px;
 
 }
 .heading_text {
     color: cyan;
-    width: 500px;
+    /* width: 500px; */
     font-size: 60px;
-    width: 800px
+    width: 31.1vw;
 
-}
-.heading_text {
-    color: cyan;
-    width: 500px;
-    font-size: 60px;
 }
 .hero_img {
-    width:600px;
+    width:31.3vw;
     padding: 0px;
 }
+
 .afliya,
 .afliya1,
 .afliya2{
@@ -51,7 +48,7 @@
     background-color: cyan;
     font-family: "Noto Serif";
     font-weight: bolder;
-    transition: background-color 0.5s,color 0.5s,border-color 0.5s;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
 }
 .hero-btn:hover{
     background-color: black;
@@ -68,6 +65,7 @@
 .container2 {
     background-color: rgb(24, 24, 24);
     height: 1080px;
+    width: 99.2vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -85,7 +83,7 @@
     color: cyan;
     margin: 0px;
     text-align: center;
-    padding: 100px;
+    padding:3vw;
     font-size: 60px;
 }
 .services_con {
@@ -149,32 +147,38 @@
 .container4 {
     background-color: rgb(24, 24, 24);
     height: 1080px;
+    width: 99.2vw;
 }
 .con4_heading {
     background-color: rgb(24, 24, 24);
     color: cyan;
     margin: 0px;
     text-align: center;
-    padding: 80px;
+    padding: 2vw;
     font-size: 60px;
 }
 .past_con {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    padding:30px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-around;
+    /* grid-template-columns: 1fr 1fr 1fr; */
     column-gap: 50px;
-    row-gap: 50px;
-    padding-left: 80px;
+    row-gap: 10px;
 }
 .past_pic {
-    width: 540px;
+    width: 27.16vw;
+    flex: 1;
 }
 
 img {
-    width: 100%;
+    width: 99%;
 }
 .container5 {
     background-color: black;
     height: 1080px;
+    width: 99.2vw;
+    /* width: ; */
 }
 .rev_con {
     display: flex;
@@ -207,3 +211,38 @@ img {
     margin: 0px;
     color: white;
 }
+
+
+.team_name {
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tt{
+    color: cyan;
+    font-weight: 200;
+    line-height: 30px;
+    font-size: 18px;
+    margin: 0px;
+}
+
+
+
+/* @keyframes slide {
+    from {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);/
+        opacity: 1;
+    } 
+}
+
+
+.heading_text {
+    animation: slide 1s ease-in;
+} */
